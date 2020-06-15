@@ -1,0 +1,84 @@
+@@@charset "UTF-8";
+
+article,aside,footer,header,main,nav,section{
+  display:block;
+}
+
+.A{
+  background-color:#effaed;
+  padding: 0px 0px;
+  }
+
+
+body{
+  background-color:#527a7a;
+
+}
+
+footer{
+  background-color:#3399ff;
+}
+
+
+
+
+html {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Segoe UI", Verdana, sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px 0;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-weight: inherit;}
+h1 {font-size: 36px}
+h2 {font-size: 30px}
+h3 {font-size: 24px}
+h4 {font-size: 20px}
+h5 {font-size: 18px}
+h6 {font-size: 16px}
+
+hr {
+  height: 0;
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+
+.bodyA {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #40c7c2;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
